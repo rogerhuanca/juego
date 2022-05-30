@@ -1,0 +1,59 @@
+.container {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+  
+    .dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+  
+    body {
+        background: #1e9600; 
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #1e9600, #fff200, #ff0000); 
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #1e9600, #fff200, #ff0000); 
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0;
+    }
+  
+    h1 {
+        margin: 30px;
+        font-family: "Lobster", cursive;
+        text-shadow: 5px 0 #15f705;
+        font-size: 4.5rem;
+        color: #1b3a09;
+        text-align: center;
+    }
+  
+    p {
+        font-size: 3rem;
+        color: #1c09f5;
+        font-family: "Indie Flower", cursive;
+    }
+  
+    img {
+        width: 40%;
+    }
+  
+    .bottom {
+        padding-top: 30px;
+    }
+  
+    .butn {
+        background: #ec8ebd;
+        font-family: "Indie Flower", cursive;
+        border-radius: 100px;
+        color: rgb(27, 17, 21);
+        font-size: 30px;
+        padding: 16px 25px 16px 25px;
+        text-decoration: none;
+    }
+  
+    .butn:hover {
+        background: #096bec;
+        text-decoration: none;
+    }
